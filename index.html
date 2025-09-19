@@ -3,16 +3,8 @@
 <head>
 <style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #000;
-}
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -28,24 +20,6 @@ body {
   text-decoration: none;
 }
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #444;
-  color: red;
-}
-
-.topnav a.active {
-  background-color: #ff0000;
-  color: white;
-}
 .dropdown {
   float: left;
   overflow: hidden;
@@ -95,44 +69,43 @@ body {
 </style>
 </head>
 <body style="background-color:white;">
-</style>
-</head>
-<body background="soncadv2/assets/images/bg00.jpg">
 
-<div class="topnav">
-  <a class="active" href="/index.html">Home</a>
-  <a href=" ">Updates</a>
-  <a href=" ">Stage Tips</a>
-  <a href=" ">Modding</a>
-    <div class="dropdown">
-  <button class="dropbtn" onclick="myFunction()">Movies
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-content" id="myDropdown">
-    <a href="#">Dreamcast</a>
-    <a href="#">GameCube</a>
-    <a href="#">Remaster</a>
-  </div>
-  </div> 
-</div>
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
   <div class="dropdown">
-  <button class="dropbtn" onclick="myFunction()">Downloads
+  <button class="dropbtn" onclick="myFunction()">Dropdown
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-content" id="myDropdown">
-    <a href="#">Dreamcast Wallpapers</a>
-    <a href="#">GameCube Wallpapers</a>
-    <a href="#">Chao Wallpapers</a>
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
   </div>
   </div> 
 </div>
 
-  <a href="/sonicadv2/index.html">Old Page</a>
-  <a href="https://sonic2.dreampipe.net">Dreampipe</a>
-  <a href="https://chao-island.com/info-center">Chao Island</a>
-  <a href="https://domobot.itch.io/tiny-chao-garden-dx">Tiny Chao Garden DX</a>
-</div>
-<tr>
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Click on the "Dropdown" link to see the dropdown menu.</p>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+  <tr>
 <td align="center">
 <img src="/sonicadv2/assets/images/HD/Sonic-Adventure-2-logo.png" width="500" height="250" alt="logo">
 </td>
@@ -151,6 +124,7 @@ body {
 </link>
 </body>
 </html>
+
 
 
 
