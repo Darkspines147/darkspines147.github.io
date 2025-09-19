@@ -4,40 +4,41 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css">
 <style>
-.navbar {
-  overflow: hidden;
-  background-color: #000;
-  font-family: Arial, Helvetica, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.navbar a {
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
   float: left;
-  font-size: 16px;
+}
+
+li a, .dropbtn {
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
 }
 
 .dropdown-content {
@@ -50,7 +51,6 @@
 }
 
 .dropdown-content a {
-  float: none;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -58,105 +58,41 @@
   text-align: left;
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
+.dropdown-content a:hover {background-color: #f1f1f1;}
 
-.show {
-  display: block;
-}
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.show {
+.dropdown:hover .dropdown-content {
   display: block;
 }
 </style>
 </head>
-<body style="background-color:white;">
+<body>
 
-<div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <div class="dropdown">
-  <button class="dropbtn" onclick="myFunction()">Dropdown
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-content" id="myDropdown">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-  </div> 
-</div>
-
-  
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  }
-}
-</script>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Movies</a>
+    <div class="dropdown-content">
+      <a href="#">SA2</a>
+      <a href="#">SA2B</a>
+      <a href="#">HD</a>
+        <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Wallpapers</a>
+    <div class="dropdown-content">
+      <a href="#">SA2</a>
+      <a href="#">SA2B</a>
+      <a href="#">Chao</a>
+        <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Chao World</a>
+    <div class="dropdown-content">
+      <a href="#">Chao Island</a>
+      <a href="#">Tiny Chao Garden</a>
+      <a href="#">Other Stuff</a>
+  <li><a href="">Old Page</a></li>
+  <li><a href="">Dreamcast Only</a></li>
+    </div>
+  </li>
+</ul>
   <tr>
 <td align="center" valign="middle">
 <img src="/sonicadv2/assets/images/HD/Sonic-Adventure-2-logo.png" width="500" height="250" alt="logo">
@@ -176,6 +112,7 @@ window.onclick = function(e) {
 </link>
 </body>
 </html>
+
 
 
 
