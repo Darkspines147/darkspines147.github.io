@@ -5,7 +5,7 @@
 <style type="text/css"><!--
 h1{color:black;size:2px}
 a{text-decoration:none}
-a:link{color-bulue}
+a:link{color-blue}
 a:active{color-blue}
 a:visited{color-blue}
 -->
@@ -32,12 +32,12 @@ else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0
 }
 if ( plugin ) {
 	document.write('<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
-	document.write('  codebase="https://web.archive.org/web/20011105091623/http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" ');
+	document.write('  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" ');
 	document.write(' ID=sonic_factory WIDTH=325 HEIGHT=200>');
 	document.write(' <PARAM NAME=movie VALUE="s_factory.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF>  '); 
 	document.write(' <EMBED src="s_factory.swf" quality=high bgcolor=#FFFFFF  ');
 	document.write(' swLiveConnect=FALSE WIDTH=325 HEIGHT=200');
-	document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="https://web.archive.org/web/20011105091623/http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
+	document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="/http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
 	document.write(' </EMBED>');
 	document.write(' </OBJECT>');
 } else if (!(navigator.appName && navigator.appName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){
@@ -109,4 +109,5 @@ if ( plugin ) {
 </td>
     <p><center><font size="2">Copyright (C) SONICTEAM, LTD. 2001 all rights reserved.</font></center></p>
   
+
 </div>
