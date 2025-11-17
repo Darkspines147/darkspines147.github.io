@@ -1,0 +1,85 @@
+body {
+	background: url(/images/dreamcast/background_dc02.jpg) no-repeat #000033;
+	font-family:arial,helvetica,geneva,sans-serif;
+	color : #FFFFFF;
+	margin : 0px;
+	padding : 0px;
+}
+
+a {
+	font-family:arial,helvetica,geneva,sans-serif;
+	text-decoration: none;
+	color : #FFFFFF;
+}
+		  
+a:link, a:visited, a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: square;
+}
+ 
+.article, .helptext {
+	font-size: 12px;
+	line-height: 14px;
+}	  
+
+.footer, .segascream, .community, .vault, .articlelist, .minorlists, .minorlistshilite, .navbox, .gamelistbox, .messageboards, .newsbox {
+	font-size: 11px;
+	line-height: 11px;
+}
+
+.footer {
+	color : #CCCCCC;
+}
+
+.breadcrumbs {
+	font-size: 11px;
+	line-height: 12px;
+	font-style : italic;
+}
+
+.titleline {
+	font-size: 13px;
+	line-height: 15px;
+	font-weight: bold;
+}
+
+.articlelist {
+	color : #FFFFFF;
+}
+
+.gamelistbox {
+	color : #000033;
+}
+
+.newsbox {
+	color : #000033;
+}	  
+
+.personalization {
+	font-size: 13px;
+	line-height: 18px;
+	color : #FFCC66;
+	font-weight : bold;
+}
+
+.dc_colorform {
+	background-color: #c8f8ff;
+	color: #306800;
+	padding: 1px;
+	font-size: 11px;
+}  
+
+.featurearticlebox {
+	margin-left : 10px;
+}
+
+.featurearticlebox img {
+	margin-right : 6px;
+}

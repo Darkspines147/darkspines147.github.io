@@ -1,0 +1,81 @@
+body,table	{font-family:arial,helvetica,sans-serif; font-size:12px;}
+a		{font-family:arial,helvetica,sans-serif; font-size:12px; color:#0066CC;}
+a:visited	{color:#663399;}
+a:hover		{color:#CC0000;}
+.bgsh		{background-color:#446CC0;}
+.bgmb		{background-color:#6496E3;padding:5px;}
+.bgb		{}
+.bgaf		{background-color:#FFFFCC;}
+.ul		{text-decoration:underline;}
+.blue		{color:#0066CC;}
+.gray		{color:#999999;}
+.green		{color:#009900;}
+.hit		{font-weight:bold;}
+.b7		{font-family:tahoma; font-size:11px; font-weight:bold; color:#9CB0D9;}
+a.b7		{font-family:tahoma; font-size:11px; font-weight:bold; text-decoration:none; color:#FFFFFF;}
+a.b7:visited	{color:#FFFFFF;}
+a.b7:hover	{color:#FFFFFF; text-decoration:underline;}
+.ch		{font-family:tahoma; color:#FFFF99; font-size:11px; font-weight:bold; text-decoration:none;}
+a.ch		{font: 18px Arial; text-decoration:none; color:#FFFFFF;}
+a.ch:visited	{color:#FFFFFF;}
+a.ch:hover	{text-decoration:underline; color:#FFFFFF;}
+.mb		{font-family:tahoma; font-size:11px; color:#FFFFFF;}
+a.mb		{font-family:tahoma; font-size:11px; text-decoration:none; color:#FFFFFF;}
+a.mb:visited	{color:#FFFFFF;}
+a.mb:hover	{text-decoration:underline; color:#FFFFFF;}
+.sb		{font-family:arial,helvetica,sans-serif; font-size:12px; border-style:solid; border-width:1; padding-left:1; padding-right:1; padding-top:0; padding-bottom:0;}
+.l		{height:2px; color:#98AEDB;}
+a.c1		{font-size:16px;font-weight:bold;}
+a.c2		{font-size:14px;}
+.h1		{font-family:arial; font-size:18px;}
+.h2		{font-family:arial; font-size:14px; font-style:italic;}
+.h3		{font-family:arial; font-size:12px; font-weight:bold; color:#0066CC;}
+.h4		{font-family:arial; font-size:10px; color:#666666;}
+a.h4		{font-family:arial; font-size:10px; color:#666666;}
+a.h4:visited	{color:#666666;}
+a.h4:hover	{color:#CC0000;}
+.r		{font-family:arial; font-size:11px; font-weight:bold;}
+a.r2		{font-family:arial; font-size:11px; text-decoration:none;}
+a.r2:hover	{text-decoration:underline;}
+a.r3		{font-family:arial; font-size:11px; font-weight:normal;}
+.b		{font-weight:bold;}
+.i		{font-family:verdana; font-size:11px;}
+a.i		{font-family:verdana; font-size:11px;}
+.i2		{font-family:verdana; font-size:11px; font-weight:bold;}
+.e		{font-style:italic; color:#999999;}
+a.t,a.pst		{font-size:14px;}
+a.t2		{font-size:12px;}
+a.t3		{font-size:12px;}
+.d		{font-size:12px;}
+.d3		{font-size:11px;}
+.u		{font-size:12px; color:#666666;}
+a.s		{font-size:12px; color:#009900;}
+.dt		{font-size:12px; color:#FF9900;}
+.tip		{font-size:12px; color:#CC0000;}
+a.pn		{font-size:10px;}
+a.p		{font-size:12px; color:green;}
+a.kp		{font:bold 14px Arial; color:#ffffff; text-decoration:none;}
+a.kp:visited	{text-decoration:none; color:#ffffff;}
+a.kp:hover	{text-decoration:none; color:#ffffff;}
+.cr		{font-family:tahoma; font-size:10px; color:#C6D1EB;}
+a.cr		{font-family:tahoma; font-size:10px; text-decoration:none; color:#C6D1EB;}
+a.cr:visited	{color:#C6D1EB;}
+a.cr:hover	{text-decoration:underline; color:#C6D1EB;}
+.cr2		{font-family:tahoma; font-size:10px; color:#999999;}
+a.cr2		{font-family:tahoma; font-size:10px; text-decoration:none; color:#999999;}
+a.cr2:visited	{color:#999999;}
+a.cr2:hover	{text-decoration:underline; color:#999999;}
+.sbt{font-weight:bold;font-size: 14px;}
+UL {margin-top: 0px;margin-bottom: 0px;margin-left: 20px;}
+OL {font-family : Arial, Helvetica, sans-serif;font-size:12px;margin-top: 0px;margin-bottom: 0px;}
+a.kp2		{font:bold 14px Arial; color:#999999; text-decoration:none;}
+a.kp2:visited	{text-decoration:none; color:#999999;}
+a.kp2:hover	{text-decoration:none; color:#999999;}
+.qform{	font-family : Arial, Helvetica, sans-serif;border-style: solid; border-width: 1; padding-left: 1; padding-right: 1; padding-top: 0; padding-bottom: 0; margin-right:-18px ; border-color: #6699CC;}
+/* spl display */
+.spm{ 	margin-left:-22px; margin-bottom: 0; }
+.sp1{	margin-bottom: 3; margin-top: 0;  margin-left:0;}
+.sp2{	margin-bottom: 0; margin-top: 0;  margin-left:0;}
+.sa   { font-family: MS Sans Serif; font-size: 9pt; }
+.sab  { font-weight: bold; }
+.ti{position: relative;top: 30px;z-index: -2;}

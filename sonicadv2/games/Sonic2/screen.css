@@ -1,0 +1,180 @@
+/* 
+	Copyright (c) 2003 Macromedia Inc.
+	macromedia.com - reskinned pages
+	
+*/
+
+
+/* DYLAN PAGE SHELL SELECTORS */
+
+#globalnavWrapper {
+	position: absolute;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	z-index: 100;
+}
+
+#globalnav {
+	position: relative;
+  width: 756px;
+	height: 64px;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+}
+
+#navSearchBox { 
+	/* override font size specified by this selector in globalnav.css */
+	font-size: 0.7em;
+}
+
+#contentWrapper { 
+	position: absolute; 
+	top: 64px; 
+	left: 0px; 
+	width: 100%;  
+	height: 100%; 
+	padding: 8px 0px 0px 0px; 
+	margin: 0px; 
+	z-index: 0;
+}
+
+#content {
+	padding: 0px; 
+	margin: 0px; 
+	text-align: left; 
+	background: white; 
+	background-repeat: repeat; 
+	width: 756px; 
+	height: 100%;
+}
+
+
+/* CODE DISPLAY */
+
+pre {
+	/* overflow : auto; */
+	display: block;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	line-height: inherit;
+	color: inherit;
+	padding: 8px 8px .75em 8px;
+}
+
+div.preWrapper {
+	overflow: auto;
+	width: 450px;
+	margin-bottom: 2em;
+	background-color: #F7F7F7;
+}
+
+div.preWrapperSmall {
+	overflow: auto;
+	width: 200px;
+	margin-bottom: 2em;
+	background-color: #F7F7F7;
+}
+
+div.preWrapper:focus { background-color: #fff; }
+textarea.code { width: 90%; /* IE 5 Win width */ height: 200px; background-color: #F7F7F7; border: 1px solid gray;	margin-bottom: 2.5em;}
+code { font-family: "Courier New", Courier, monospace; color: #333333; font-size: 11px; background-color: #F7F7F7;}
+p code { font: 1em;}
+xmp { font: "Courier New", monospace; color: #333;}
+
+/* FORMS ELEMENTS */
+
+form { margin: 0em;}
+.padded select { font: bold 10px Verdana, Geneva, Arial, sans-serif;}
+
+/* ADDITIONAL FONT DEFINITIONS NN4+ */
+
+p  { margin-top: 0.3em; margin-bottom: 1.5em;}
+td.rowheader { font-size: .84em; padding: 8px;}
+.caption { margin-top: 1em; font-size : xx-small; color: Gray;}
+
+/* move to uber */
+.quote { font: bold 0.8em/1.33em Arial, Helvetica, sans-serif; color: #888;}
+div.quote { margin: .3em 0em .5em;}
+.itemChar { font-weight: bold; color: #f60;}
+
+/* LIST ELEMENT DEFINITIONS */
+
+li { margin: 0em 0em 1em 0em; padding: 0px;}
+li p { margin-bottom: 0.6em; margin-top: 0em;}
+li.nomarker { list-style-image: none; list-style-type: none;}
+
+/* following is for Mac IE only */
+ul { list-style: url(/uber/images/middot_mac_ie.gif) outside; line-height: 1.3em; padding: 1px 0px 1px -10px; margin:1em 0em 1em 15px;}
+/*
+	This is a CSS comment where the end-of-comment marker is escaped.
+	End Mac IE style.
+	The following styles are not read by Mac IE
+	because it thinks they are still part of this comment.
+\*/
+ul {list-style: url(/uber/images/middot_pc_ie.gif) outside; line-height: 1.3em; padding: 1px 0px 1px 0px; margin:1em 0em 1em 11px;}
+/*
+	Another comment, now with a normal end-of-comment marker. Mac IE sees the end of this comment as the end of the previous one.
+*/
+
+ul ul {margin-top:1em;} 
+ol {margin:3px 0px 1em 20px; padding:0px 0px 0px 10px; line-height: 1.3em; list-style:decimal;}
+ol ol {margin:2em 0em 2em 0em;}
+
+/* unordered list without a marker */
+ul.nomarker {list-style-image: none; list-style-type: none; margin: 0.5em 0em 1.5em 0em; line-height: 1.3em; padding: 1px 0px 1px 0px;}
+ul.nomarker li {margin:0em 0em 0.65em 0em;}
+/* custom lists */
+ul.custom {list-style: none; margin-left: 0; padding-left: 1em; text-indent: -1em;}
+/* alpha numeric lists */
+ol.alpha {list-style : lower-alpha;}
+/* breaker! */
+.breaker{clear:both;overflow:hidden;height:1px}
+/* this is to replace the controversial ul.nomarker class [all lists need bullets? argument] */
+div.list {margin:0em 0em 2.5em 0em;}
+div.list p {margin: 0.5em 0em 0.5em 0em;}
+
+dt { margin-top:3em;	font-weight: bold;}
+
+/* HORIZONTAL RULES */
+
+hr {color: #e6e6dc; background: #e6e6dc; border: none; height: 1px;}
+hr.oneRow {color: #e6e6dc; height: 1px;	margin: 15px 0px 16px 0px; clear: left;}
+hr.dashedHalfRow {border-style: dashed; color: #e6e6dc; height: 1px; margin: 7px 0px 8px 0px; clear: left;}
+.dashed { color: #FFF; background: #FFF; border-top: 1px dashed #ccc; border-right: none; border-bottom: none; border-left: none; height: 1px}
+hr.space {margin: 25px; visibility: hidden;}
+hr.pagebreak {color: #e6e6dc; height: 1px; margin: 0em;}
+hr.nomargin {color: #e6e6dc; height: 1px; margin: 0em; clear: both;}
+hr.margin {color: #e6e6dc; height: 1px;	/* make sure that the topmargin and bottom margin is 32 pix */	margin:25px 0px 25px 0px; clear: left;}
+hr.bottommargin {color: #e6e6dc; height: 1px; margin: 0px 0px 25px 0px;	clear: both;}
+hr.topmargin {color: #e6e6dc; height: 1px; margin: 32px 0px 0px 0px; clear:both;}
+hr.bottom {color : #D5D5CA; height: 1px; margin: 32px 0px 16px 0px; border: 0px; background: #D5D5CA;}
+
+/* IMAGES */
+
+img.padded { margin:0em 2em 2em 0em;}
+
+/* LAYOUT - REMOVE DESIGN TABLES */
+
+/* for download items below a paragraph block */
+p.itemsml { margin-top:-1em; margin-bottom: 2em;}
+.padded p.itemsml { margin-top:-1em; margin-bottom: 1.5em;}
+p.itemsml { margin-top:-1em;}
+/* for items on solutions portals where a zero bottom margin is needed (usually the last item) */
+div.itemsml { margin-top:-.8em;}
+/* for lists on solutions portals */
+.padded ul, .paddedflushleft ul { list-style-image: none; list-style: none; margin: 0em 0em 0.4em; padding-left: 7px; text-indent: -7px;}
+.padded li, .paddedflushleft li { margin: 0em;}
+/* for white space around portal image and text headers */
+.padded h3, .paddedflushleft h3 { margin-top:0em; margin-bottom:.4em;}
+.padded p, .paddedflushleft p { margin-top:0.16em;}
+
+/* DEPRECIATED TAGS */
+
+blockquote {width: 100%; padding: 0em; margin: 0em;}
+
+/* this is for showcase only, should be removed down the road when the showcase inline referring styles are removed */
+.tophead {font-family: Arial, Helvetica, sans-serif; font-style: italic; font-weight: bold}
+.boldbody  {font-family: Geneva, Arial, Helvetica, sans-serif; font-weight: bold; font-style: normal;}

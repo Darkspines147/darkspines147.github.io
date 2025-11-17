@@ -1,0 +1,23 @@
+/* 
+	Copyright (c) 2003 Macromedia Inc.
+	Global CSS
+	
+*/
+
+/* screen media */
+@import URL("/css/globalnav.css");
+@import URL("/css/screen.css");
+
+.nonStandard { display:none; }
+
+body { 
+	background-image: none; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-position: 0%;
+	background-color: #e6e6dc;
+	padding: 0px; 
+	margin: 0px; 
+	height: 100%;
+	width: 100%;
+}
