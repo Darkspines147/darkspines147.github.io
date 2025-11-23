@@ -33,6 +33,7 @@ pages and contests. This one is purely for archival.
 ____________________________________________________
 
 "New" Pages
+
 "0822" is a new page made by me, dedicated to the soundtracks.
 It was made with the date of the Vocal album's release date of
 August 22, 2001. This was originally a link to Wave Master Inc.
