@@ -110,7 +110,7 @@ if ( plugin && parseInt(plugin.description.substring(plugin.description.indexOf(
 	// Check for Flash version 4 or greater in Netscape
 	document.write('<EMBED src="/include/flash_pc/store.swf" quality=high bgcolor=#000000 ');
 	document.write(' swLiveConnect=FALSE WIDTH=600 HEIGHT=68');
-	document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="https://web.archive.org/web/20010707101933/http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
+	document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="/http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
 } else if (!(navigator.appName && navigator.appName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){
 	// Netscape 2 will display the IMG tag below so don't write an extra one
 	document.write('<IMG SRC="/include/images/p_store_head_type.gif" WIDTH=600 HEIGHT=68 BORDER=0>');
@@ -597,6 +597,7 @@ collected and used to open unique features and mini-games.</ul>
 
 
 </html>
+
 
 
 
