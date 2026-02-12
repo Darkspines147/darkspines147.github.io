@@ -105,14 +105,6 @@ MM_preloadImages('/sonicadv2/store_spoof/include/images/p_store_nav_home_on.gif'
         <param name="quality" value="high">
         <param name="bgcolor" value="#000000">
         <script language="JavaScript">
-			
-//var plugin = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ? navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
-//if ( plugin && parseInt(plugin.description.substring(plugin.description.indexOf(".")-1)) >= 4 ) {
-	
-//	document.write('<EMBED src="/sonicadv2/store_spoof/include/flash_pc/store.swf" quality=high bgcolor=#000000 ');
-//	document.write(' swLiveConnect=FALSE WIDTH=600 HEIGHT=68');
-//	document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="/http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
-//} else if (!(navigator.appName && navigator.appName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){
 	
 	document.write('<IMG SRC="/sonicadv2/store_spoof/include/images/p_store_head_type.gif" WIDTH=600 HEIGHT=68 BORDER=0>');
 }			
@@ -151,21 +143,7 @@ MM_preloadImages('/sonicadv2/store_spoof/include/images/p_store_nav_home_on.gif'
     </tr>
     <tr bgcolor="#E1E1E1" align="center">
       <td valign="top">
-	  
-	  <!--search area start
-			<table border="0" cellspacing="0" cellpadding="0">
-			
-			  
-			<tr> 
-			<td valign="top"><img src="/sonicadv2/store_spoof/include/images/p_store_arrow_r.gif" width="22" height="15"><a href="/web/20010707101933/http://www.sega.com/pc/segastore/SegaStoreSearch.jhtml;$sessionid$R0QP1LIAABFSQCRSBUFCM4YKGIGRIMS0"><i><font face="Arial, Helvetica, Geneva, sans-serif" size="3">Search for</font></i></a>&nbsp;&nbsp;</td>
-			<form method="POST" action="/web/20010707101933/http://www.sega.com/pc/segastore/SegaSearchResults.jhtml;$sessionid$R0QP1LIAABFSQCRSBUFCM4YKGIGRIMS0?_DARGS=%2Fpc%2Fsegastore%2Fsegatemplates%2FSegaGame.jhtml.2">
-			<td align="right" valign="top"><input type="text" size="40" value="" name="/sega/droplets/store/ProductSearchFormDroplet.search.criteria.contains"><input type="hidden" name="_D:/sega/droplets/store/ProductSearchFormDroplet.search.criteria.contains" value=" "><input size="8" type="hidden" value="" name="/sega/droplets/store/ProductSearchFormDroplet.search.criteria.priceMoreThan"><input type="hidden" name="_D:/sega/droplets/store/ProductSearchFormDroplet.search.criteria.priceMoreThan" value=" "><input size="8" type="hidden" value="" name="/sega/droplets/store/ProductSearchFormDroplet.search.criteria.priceLessThan"><input type="hidden" name="_D:/sega/droplets/store/ProductSearchFormDroplet.search.criteria.priceLessThan" value=" "><img src="/sonicadv2/store_spoof/include/images/clear.gif" width="2" height="1"></td>
-			<td><input type="image" src="/sonicadv2/store_spoof/include/images/p_store_btn_go2.gif" width="44" height="28" alt="" border="0" name="/sega/droplets/store/ProductSearchFormDroplet.submit"><input type="hidden" name="_D:/sega/droplets/store/ProductSearchFormDroplet.submit" value=" "></td>
-			</form>
-			</td>
-			</tr>
-			</table>
-	search area end -->
+	
 <br>
 	  
         <table width="588" border="0" cellspacing="0" cellpadding="0">
@@ -201,88 +179,6 @@ In Stock
 </font>
 <br>
 
-
- <!--     ------------------------------------------------------------------------------
-
-    <img src="/segastore/images/resources/trans.gif" height=7><br>
-
-    <table cellspacing=0 cellpadding=0 border=0 width=400>
-      <tr>
-        <td align=center valign=bottom>
-          <font size=-1>Qty</font>
-        </td>
-
-        <td align=center valign=bottom>
-          <font size=-1>Price</font>
-        </td>
-
-        <td align=center valign=bottom>
-          <font size=-1><b>Total</b></font>
-        </td>
-      </tr>
-
-      <tr>
-        <td align=center colspan=3>
-          <DROPLET BEAN="/atg/retail/droplets/catalog/RuleToGif">
-            <PARAM name="rule" value="param:PRODMEDIA.ruleColor">
-	          <PARAM name="dir" value="/segastore/images/resources/">
-            <OPARAM name="output"><img src="param:RULEGIF" height=1 width=400 border=0></OPARAM>
-          </DROPLET>
-        </td>
-      </tr>
-
-      <tr>
-        <td align=center valign=bottom>
-          <input BEAN="ItemDroplet.item.quantity"  size=2 maxlength=2>
-        </td>
-
-        <td align=center valign=bottom>
-          <tt><VALUEOF BEAN="ItemDroplet.item.unitPriceString"></VALUEOF></tt>
-        </td>
-
-        <td align=center valign=bottom>
-          <tt><VALUEOF BEAN="ItemDroplet.item.totalPriceString"></VALUEOF></tt>
-        </td>
-      </tr>
-    </table>
-
-    <p>
-
-    <table border=0 width=500>
-      <tr>
-        <td width=500 align=center>
-          
-          <DROPLET BEAN="/atg/dynamo/droplet/ForEach">
-            <PARAM name="array" value="param:PROD.options">
-            <OPARAM name="output">
-              <VALUEOF param="element.name"></VALUEOF>
-              <select BEAN="ItemDroplet.item.attributeValue[param:index]">
-                <DROPLET bean="/atg/dynamo/droplet/ForEach">
-                  <PARAM name="array" value="param:element.possibleValues">
-                  <OPARAM name="output">
-                    <option value="param:element"> <VALUEOF param="element"></VALUEOF>
-                  </OPARAM>
-                </DROPLET>
-              </select>
-            </OPARAM>
-          </DROPLET>
-        </td>
-      </tr>
-
-      <tr>
-        <td colspan=1 align=center>
-          <img src="/segastore/images/resources/trans.gif" height=30><br>
-          <nobr>
-
-          <input type="image" border=0 name="one" bean="ItemDroplet.submit" submitvalue="CalculateItemSkus,CalculateItemUnitPrices,CalculateItemTotals,AddItemToOrder,RedirectOnSuccess:op/SegaCart.jhtml"  src="/segastore/images/buttons/additemtoshoppingcart.gif">
-          <input type="image" border=0 name="two" bean="ItemDroplet.submit" submitvalue=""  src="/segastore/images/buttons/recalculate.gif">
-
-          </nobr>
-        </td>
-      </tr>
-    </table>
-
-------------------------------------------------------------------------------------  -->
 
     </form>
   
@@ -375,8 +271,6 @@ In Stock
 			      
                           <br>
 
-                          <!--<i><b>Net Support:</b></i>
-			   No -->
                           <br>
 
 			  
@@ -586,6 +480,7 @@ There are special Chao Eggs you can only get in the all-new Tiny Chao Garden!</u
 
 
 </html>
+
 
 
 
