@@ -1,3 +1,5 @@
+This website was originally coded in - <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
 To: anyone who sees this source code.
 
 The folder structure is set up by [MonthDay]. So, for example if a
