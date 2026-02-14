@@ -1,4 +1,4 @@
-This website was originally coded in - <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+This website was originally coded in - !DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 
 To: anyone who sees this source code.
 
