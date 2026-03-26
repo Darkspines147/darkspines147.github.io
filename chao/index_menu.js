@@ -1,12 +1,12 @@
-var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
-let window = _____WB$wombat$assign$function_____("window");
-let self = _____WB$wombat$assign$function_____("self");
-let document = _____WB$wombat$assign$function_____("document");
-let location = _____WB$wombat$assign$function_____("location");
-let top = _____WB$wombat$assign$function_____("top");
-let parent = _____WB$wombat$assign$function_____("parent");
-let frames = _____WB$wombat$assign$function_____("frames");
-let opens = _____WB$wombat$assign$function_____("opens");
+//var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+//let window = _____WB$wombat$assign$function_____("window");
+//let self = _____WB$wombat$assign$function_____("self");
+//let document = _____WB$wombat$assign$function_____("document");
+//let location = _____WB$wombat$assign$function_____("location");
+//let top = _____WB$wombat$assign$function_____("top");
+//let parent = _____WB$wombat$assign$function_____("parent");
+//let frames = _____WB$wombat$assign$function_____("frames");
+//let opens = _____WB$wombat$assign$function_____("opens");
 
 u=new Array();
 u[0]='chao_images/chao_1_01.gif';
@@ -69,44 +69,44 @@ d[16]='chao_images/c_5_06.gif';
 d[17]='chao_images/c_5_02.gif';
 
 l=new Array();
-l[0]='chao_images/chao_6_01.gif';
-l[1]='chao_images/c_6_02.gif';
-l[2]='chao_images/c_6_03.gif';
-l[3]='chao_images/c_6_04.gif';
-l[4]='chao_images/c_6_05.gif';
-l[5]='chao_images/c_6_06.gif';
-l[6]='chao_images/c_6_05.gif';
-l[7]='chao_images/c_6_04.gif';
-l[8]='chao_images/c_6_03.gif';
-l[9]='chao_images/c_6_02.gif';
-l[10]='chao_images/c_6_06.gif';
-l[11]='chao_images/c_6_02.gif';
-l[12]='chao_images/c_6_04.gif';
-l[13]='chao_images/chao_6_01.gif';
-l[14]='chao_images/c_6_05.gif';
-l[15]='chao_images/c_6_03.gif';
-l[16]='chao_images/chao_6_01.gif';
-l[17]='chao_images/c_6_06.gif';
+l[0]='assets/images/chao_6_01.gif';
+l[1]='assets/images/c_6_02.gif';
+l[2]='assets/images/c_6_03.gif';
+l[3]='assets/images/c_6_04.gif';
+l[4]='assets/images/c_6_05.gif';
+l[5]='assets/images/c_6_06.gif';
+l[6]='assets/images/c_6_05.gif';
+l[7]='assets/images/c_6_04.gif';
+l[8]='assets/images/c_6_03.gif';
+l[9]='assets/images/c_6_02.gif';
+l[10]='assets/images/c_6_06.gif';
+l[11]='assets/images/c_6_02.gif';
+l[12]='assets/images/c_6_04.gif';
+l[13]='assets/images/chao_6_01.gif';
+l[14]='assets/images/c_6_05.gif';
+l[15]='assets/images/c_6_03.gif';
+l[16]='assets/images/chao_6_01.gif';
+l[17]='assets/images/c_6_06.gif';
 
 p=new Array();
-p[0]='chao_images/chao_7_01.gif';
-p[1]='chao_images/c_7_02.gif';
-p[2]='chao_images/c_7_03.gif';
-p[3]='chao_images/c_7_04.gif';
-p[4]='chao_images/c_7_05.gif';
-p[5]='chao_images/c_7_06.gif';
-p[6]='chao_images/c_7_05.gif';
-p[7]='chao_images/c_7_04.gif';
-p[8]='chao_images/c_7_03.gif';
-p[9]='chao_images/c_7_02.gif';
-p[10]='chao_images/c_7_05.gif';
-p[11]='chao_images/c_7_03.gif';
-p[12]='chao_images/chao_7_01.gif';
-p[13]='chao_images/c_7_02.gif';
-p[14]='chao_images/c_7_03.gif';
-p[15]='chao_images/chao_7_01.gif';
-p[16]='chao_images/c_7_04.gif';
-p[17]='chao_images/c_7_05.gif';
+p[0]='assets/images/chao_7_01.gif';
+p[1]='assets/images/c_7_02.gif';
+p[2]='assets/images/c_7_03.gif';
+p[3]='assets/images/c_7_04.gif';
+p[4]='assets/images/c_7_05.gif';
+p[5]='assets/images/c_7_06.gif';
+p[6]='assets/images/c_7_05.gif';
+p[7]='assets/images/c_7_04.gif';
+p[8]='assets/images/c_7_03.gif';
+p[9]='assets/images/c_7_02.gif';
+p[10]='assets/images/c_7_05.gif';
+p[11]='assets/images/c_7_03.gif';
+p[12]='assets/images/chao_7_01.gif';
+p[13]='assets/images/c_7_02.gif';
+p[14]='assets/images/c_7_03.gif';
+p[15]='assets/images/chao_7_01.gif';
+p[16]='assets/images/c_7_04.gif';
+p[17]='assets/images/c_7_05.gif';
 
 aa=Math.floor(Math.random()*m.length);
 
@@ -144,24 +144,3 @@ function MM_swapImage() { //v3.0
 
 
 }
-
-/*
-     FILE ARCHIVED ON 18:54:29 Oct 05, 2003 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 20:05:12 Mar 26, 2026.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.827
-  exclusion.robots: 0.068
-  exclusion.robots.policy: 0.053
-  esindex: 0.011
-  cdx.remote: 18.738
-  LoadShardBlock: 66.554 (3)
-  PetaboxLoader3.datanode: 54.034 (4)
-  PetaboxLoader3.resolve: 100.501 (3)
-  load_resource: 95.298
-*/
