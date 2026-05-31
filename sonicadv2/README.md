@@ -27,7 +27,7 @@ Meant to announce the 2-day Japanese event.
 of the pages in a select language. all "_e" need to
 be replaced with "_f", "_s", "_i", "_j", or "_g or _d".
 
-"about_soapshoes" is a page dedicated to Soap Shoes' History.
+"about_soapshoes" is a page dedicated to Soap Shoes' History. This page is depreciated. Do not update it.
 
 "games" is a deceptive name, isn't it? I simply named it this as it was 
 named that on Sega's server back in the day. It was mainly for marketing
